@@ -41,17 +41,5 @@ export class AppService {
     if (!createdUser) return 'Data not created';
 
     return createdUser;
-  }
-
-  // async createFeedback(): Promise<Feedback | string> {
-  //   const createdFeedback = await this.prisma.feedback.create({
-  //     data: {
-  //       title: 'Chinmay feedback',
-  //       description: 'Hello A feedback from Chinmay',
-  //       userId: 1,
-  //     },
-  //   });
-
-  //   return createdFeedback;
-  // }
+  } 
 }
